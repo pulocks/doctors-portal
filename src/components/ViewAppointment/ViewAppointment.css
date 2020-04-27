@@ -1,0 +1,8 @@
+.view-appointment{
+    color: blue;
+    background-color: lightgray;
+    width: 40%;
+    margin-left: 200px;
+    padding: 10px;
+    text-align: center;
+}

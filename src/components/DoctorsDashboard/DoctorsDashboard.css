@@ -1,0 +1,15 @@
+.dashboard{
+    text-align: center;
+}
+
+.dashboard-header{
+    display: flex;
+    margin-left: 50px;
+    color: blue;
+}
+
+.dashboard-header h5{
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+}

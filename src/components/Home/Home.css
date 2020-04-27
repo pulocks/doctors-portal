@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.home img{
+    height: 400px;
+    margin-right: 20px;
+}
+
+.main-button{
+    height: 40px;
+    width: 180px;
+    background-color: aqua;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.appointment-list{
+    text-align: center;
+}
+
+.row{
+    margin: 20px;
+}
+
+.invalid-date{
+    text-align: center;
+    color: pink;
+}
+

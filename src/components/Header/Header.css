@@ -1,0 +1,20 @@
+.header{
+    background-color: green;
+    line-height: 40px;
+}
+
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.header nav a{
+    margin-right: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.header nav a:hover{
+    color: blue;
+}

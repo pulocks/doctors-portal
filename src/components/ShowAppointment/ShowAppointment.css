@@ -1,0 +1,17 @@
+.show-appointment{
+    display: flex;
+    margin-left: 50px;
+}
+
+.show-appointment h6{
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+.show-appointment button{
+    background-color: cyan;
+    height: 30px;
+    width: 150px;
+    margin: 5px;
+}

@@ -1,0 +1,46 @@
+.doctorsPage{
+    display: flex;
+    margin: 20px;
+}
+
+.left{
+    width: 20%;
+    height: 500px;
+    background-color: green;
+}
+
+.left nav{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.left nav a{
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.left nav a:hover{
+    color: blue;
+}
+
+.mid{
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.right{
+    width: 40%;
+    padding: 10px;
+}
+
+.header-content{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.header-content h5{
+    width: 160px;
+    color: indigo;
+}

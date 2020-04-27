@@ -1,0 +1,25 @@
+.appointment-form{
+    margin: 100px;
+}
+
+.appointment-form input{
+    width: 250px;
+    height: 30px;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.error{
+    color: red;
+}
+
+#time{
+    width: 250px;
+    height: 30px;
+}
+
+.thankYouMessage{
+    margin: 100px;
+}
