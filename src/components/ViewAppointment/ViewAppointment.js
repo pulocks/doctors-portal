@@ -8,17 +8,20 @@ import './ViewAppointment.css';
 const ViewAppointment = () => {
 
     const {key} = useParams();
-    const [view, setView] = useState({});
+
+    const [viewById, setViewById] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:4200/views/' + key)
+
+        fetch('https://limitless-beach-33697.herokuapp.com/views/' + key)
         .then(res => res.json())
         .then(data => {
-            setView(data);
-        })
-    }, [key])
+            setViewById(data);
+        });
+        
+    }, [key]);
 
-    const {name, phone, email, time, date} = view;
+    const{name, phone, email, time, date} = viewById;
 
     return (
         <div className="view-appointment">

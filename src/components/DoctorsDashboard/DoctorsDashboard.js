@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import ShowAppointment from '../ShowAppointment/ShowAppointment';
 import './DoctorsDashboard.css';
 
-const DoctorsPage = () => {
+const DoctorsDashboard = () => {
 
     const [appointment, setAppointment] = useState([]);
     let len = 1;
 
     useEffect(() => {
     
-        fetch('http://localhost:4200/appointments')
+        fetch('https://limitless-beach-33697.herokuapp.com/appointments')
         .then(res => res.json())
         .then(data => {
             setAppointment(data);
@@ -20,7 +20,7 @@ const DoctorsPage = () => {
     return (
         <div>
             <div className="dashboard">
-                <h2>Total Appointments: {appointment.length > 0 && appointment.length}</h2>
+                <h2>Total Appointments: {appointment.length}</h2>
             </div>
             {
                 appointment.length > 0 &&
@@ -43,4 +43,4 @@ const DoctorsPage = () => {
     );
 };
 
-export default DoctorsPage;
+export default DoctorsDashboard;

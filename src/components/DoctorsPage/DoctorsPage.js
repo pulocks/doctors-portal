@@ -23,7 +23,7 @@ const DoctorsPage = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:4200/appointments')
+        fetch('https://limitless-beach-33697.herokuapp.com/appointments')
         .then(res => res.json())
         .then(data => {
             setAppointment(data);

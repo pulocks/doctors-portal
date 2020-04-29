@@ -13,8 +13,9 @@ const AddAppointment = () => {
 
     const onSubmit = data => {
         const num = Date.now();
-        data.id = num;
-        fetch('http://localhost:4200/allAppointments', {
+        const numString = num.toString();
+        data.id = numString;
+        fetch('https://limitless-beach-33697.herokuapp.com/allAppointments', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json; charset=UTF-8'

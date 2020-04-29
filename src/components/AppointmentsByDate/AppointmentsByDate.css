@@ -9,5 +9,5 @@
 
 .appointmentsByDate button{
     background-color: cyan;
-    border-radius: 5px;
+    width: 120px;
 }
